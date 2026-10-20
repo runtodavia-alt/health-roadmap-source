@@ -236,7 +236,7 @@
   }
 
   function renderAll() {
-    renderGoal(document.querySelectorAll(".goals .goal")[0], "weight", 60, 55);
+    renderGoal(document.querySelectorAll(".goals .goal")[0], "weight", 24, 55);
     renderGoal(document.querySelectorAll(".goals .goal")[1], "fat", 22, 17);
     renderMeditation();
     renderHistory();
