@@ -1,0 +1,12 @@
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 편집기 설정
+.vscode/
+.idea/
+
+# 임시 파일과 개발용 의존성
+*.log
+node_modules/

@@ -1,0 +1,17 @@
+.save-status{margin:12px 0 0;color:#256b52;font-size:13px}
+.save-status.error{color:#b42318}
+.dots span.done{color:#fff;background:#7b68d8;border-color:#7b68d8}
+.local-chart{display:grid;gap:8px;margin-top:12px}
+.chart-row{display:grid;grid-template-columns:48px minmax(60px,1fr) auto;gap:9px;align-items:center;font-size:12px}
+.chart-rail{height:8px;background:#edf0f5;border-radius:99px;overflow:hidden}
+.chart-rail i{display:block;height:100%;background:#6c84ce;border-radius:99px}
+.chart-row strong{font-size:12px;white-space:nowrap}
+.local-history{display:grid;gap:8px;margin-top:14px}
+.history-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px;border:1px solid #e8ebf1;border-radius:10px;background:#fff}
+.history-summary{display:grid;gap:4px;font-size:13px}
+.history-summary span{color:#69758b}
+.history-actions{display:flex;gap:7px}
+.history-actions button{padding:6px 10px;border:1px solid #d9deea;border-radius:7px;color:#34405a;background:#fff;cursor:pointer}
+.history-actions button:hover{background:#f4f6fa}
+.selected{outline:2px solid #7b68d8;outline-offset:2px}
+@media(max-width:520px){.history-row{align-items:flex-start;flex-direction:column}.history-actions{width:100%}}
